@@ -1,0 +1,21 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: rgba(16, 99, 78, 0.9); 
+    padding: 20px 10px;
+    color: white;
+    position: fixed;
+    width: 100%;
+    z-index: 9999;
+}
+.link{
+    padding-right: 10px;
+    color: white;
+}

@@ -1,0 +1,140 @@
+
+.swiper {
+    width: 100%;
+    height: 80vh;
+  }
+  
+  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+  
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+  }
+  
+  .swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  .slidemain{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color:  rgba(16, 99, 78, 0.9);
+  }
+
+  .missionContainer{
+    width: 100%;
+    
+    background: url("https://mobirise.com/extensions/floram4/floral-studio/assets/images/background2.jpg");
+  }
+  .mission{
+    padding: 60px 0;
+    display: flex;
+    flex-direction: row;
+   width: 50%;
+   margin:0 auto;
+  }
+  .missionLeft{
+    padding: 0 5%;
+    background-color: rgb(27,116,94);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: white;
+    gap: 20px;
+  }
+  .missionLeft button{
+padding: 10px 15px;
+width: 150px;
+border: 1px solid rgb(27,116,94);
+background-color: rgb(216,227,213);
+color: rgb(27,116,94);
+  }
+  .pricing{
+    width: 100%;
+    background: url("https://mobirise.com/extensions/floram4/floral-studio/assets/images/background1-1-1085x595.jpg");
+  }
+  .eventsPricingHeader,.ourTeamsHeader{
+    color: rgb(27,116,94);
+    text-align: center;
+    padding: 70px 0 30px 0;
+  }
+ .eventsPricing{
+    display: flex;
+    flex-direction: row;
+   width: 50%;
+   margin:0 auto;
+ }
+ .eventsPricingCard{
+    color: rgb(27,116,94);
+    border: 1px solid black;
+    background-color: rgb(254,241,230);
+    padding: 30px 20px;
+    margin:50px 20px;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+ }
+ .price span{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+ }
+ .eventsPricingCard button{
+    padding: 10px 15px;
+    border: none;
+    background-color: rgb(216,227,213);
+ }
+ button{
+    cursor: pointer;
+ }
+
+.users{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.ourTeams{
+  color:  rgb(27,116,94);
+  width: 100%;
+ background-color:  rgb(255,255,255);
+}
+.name{
+  padding-top: 25px;
+  text-align: center;
+}
+.userJob{
+  
+  text-align: center;
+}
+.data{
+  padding: 60px 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 20px;
+  text-align: center;
+}
+.dataCard img{
+  width: 300px;
+  height: 300px;
+}
